@@ -28,13 +28,23 @@ section h2 {
     font-size: 1.5em;
 }
 
-.alamat p,
-.skills .skills-cv,
+.contact p,
+.skills p,
 .education p,
 .experience p,
 .media p {
     margin: 0;
     padding: 0;
+}
+
+/* Links */
+a {
+    color: #297bc6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Skills Section */
@@ -60,13 +70,4 @@ section h2 {
 /* Media Section */
 .media p {
     margin-top: 10px;
-}
-
-.media a {
-    color: #297bc6;
-    text-decoration: none;
-}
-
-.media a:hover {
-    text-decoration: underline;
 }
